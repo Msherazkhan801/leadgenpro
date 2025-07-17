@@ -50,9 +50,9 @@ export default function CountryExplorer() {
         transition={{ duration: 0.5 }}
         className="mb-12"
       >
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Explore Global Markets</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Explore Global Database Vertices.</h1>
         <p className="text-xl text-gray-600 max-w-3xl">
-          Select a country or region to access detailed market intelligence, business insights, and growth opportunities
+          Choose a country or region to unlock verified leads, industry insights, and growth potential—all in one platform.
         </p>
       </motion.div>
 

@@ -10,22 +10,22 @@ export default function Home() {
     {
       icon: <FiTrendingUp className="w-6 h-6" />,
       title: "Market Analysis",
-      description: "Comprehensive market size, trends, and opportunities"
+      description: "Gain powerful insights to make smarter business decisions."
     },
     {
       icon: <FiUsers className="w-6 h-6" />,
       title: "Business Culture",
-      description: "Cultural insights and business practices"
+      description: "Understand cultural nuances and close deals with confidence."
     },
     {
       icon: <FiMapPin className="w-6 h-6" />,
       title: "Regional Data",
-      description: "Location-specific opportunities and challenges"
+      description: "Access accurate, location-specific data for targeted strategies."
     },
     {
       icon: <FiGlobe className="w-6 h-6" />,
       title: "Explore Countries",
-      description: "Detailed global market intelligence"
+      description: "Discover opportunities across 120+ countries in one place."
     }
   ];
 
@@ -57,7 +57,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Unlock Global Market Opportunities
+              Unlock Trusted Lead Databases for Your Business.
             </motion.h2>
 
             <motion.p
@@ -66,7 +66,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              Get detailed market insights and business intelligence for any country or region
+             Access verified leads from 120+ countries – all in one powerful platform. Grow smarter, faster, and bigger!
             </motion.p>
 
             <motion.div
