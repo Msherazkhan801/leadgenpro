@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
+import logo from '../assets/images/Logo.png'
+
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -19,8 +21,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 flex items-center">
             <Image
-              src="/images/logo.png"
-              alt="Lead Gen Pro Logo"
+              src={logo}
+              alt="Logo"
               width={120}
               height={200}
               className="h-14 w-auto"
@@ -91,7 +93,14 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className={`relative px-4 py-2 text-lg font-bold transition-colors duration-200 text-white hover:text-blue-100 `}
               >
-                Countries
+                ABOUT
+              </Link>
+              <Link
+                href="/countries"
+                onClick={() => setIsOpen(false)}
+                className={`relative px-4 py-2 text-lg font-bold transition-colors duration-200 text-white hover:text-blue-100 `}
+              >
+                COUNTRIES
               </Link>
             </div>
           </div>
