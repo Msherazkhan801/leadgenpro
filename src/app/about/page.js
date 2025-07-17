@@ -15,7 +15,7 @@ export default function About() {
 
   const team = [
     {
-      name: 'Sher Alm',
+      name: 'Sheer Alm',
       role: 'CEO & Founder',
       bio: 'Market research expert with 15+ years experience'
     },
