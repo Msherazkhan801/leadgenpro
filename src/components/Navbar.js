@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 flex items-center">
             <Image
-              src="/logo.png"
+              src="/images/logo.png"
               alt="Lead Gen Pro Logo"
               width={120}
               height={200}
