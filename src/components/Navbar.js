@@ -36,7 +36,15 @@ export default function Navbar() {
                 isActive('/') ? 'after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-3/4 after:h-0.5 after:bg-white' : ''
               }`}
             >
-              Home
+              HOME
+            </Link>
+            <Link
+              href="/about"
+              className={`relative px-4 py-2 text-lg font-bold transition-colors duration-200 text-white hover:text-blue-100 ${
+                isActive('/about') ? 'after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-3/4 after:h-0.5 after:bg-white' : ''
+              }`}
+            >
+             ABOUT
             </Link>
             <Link
               href="/countries"
@@ -44,7 +52,7 @@ export default function Navbar() {
                 isActive('/countries') ? 'after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-3/4 after:h-0.5 after:bg-white' : ''
               }`}
             >
-              Countries
+              COUNTRIES
             </Link>
           </div>
 
