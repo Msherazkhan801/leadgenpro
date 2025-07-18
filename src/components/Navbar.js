@@ -56,6 +56,14 @@ export default function Navbar() {
             >
               COUNTRIES
             </Link>
+            <Link
+              href="/blog"
+              className={`relative px-4 py-2 text-lg font-bold transition-colors duration-200 text-white hover:text-blue-100 ${
+                isActive('/blogs') ? 'after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-3/4 after:h-0.5 after:bg-white' : ''
+              }`}
+            >
+              BLOG
+            </Link>
           </div>
 
           {/* Mobile menu button (hidden on desktop) */}
@@ -101,6 +109,13 @@ export default function Navbar() {
                 className={`relative px-4 py-2 text-lg font-bold transition-colors duration-200 text-white hover:text-blue-100 `}
               >
                 COUNTRIES
+              </Link>
+              <Link
+                href="/blog"
+                onClick={() => setIsOpen(false)}
+                className={`relative px-4 py-2 text-lg font-bold transition-colors duration-200 text-white hover:text-blue-100 `}
+              >
+                BLOG
               </Link>
             </div>
           </div>
